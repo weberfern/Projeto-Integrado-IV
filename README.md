@@ -1,8 +1,8 @@
-# Feira Conectada
+# 🎯 Landing Page do Projeto Feira Conectada
 
 Projeto desenvolvido para a disciplina de Desenvolvimento para Web, do curso de Análise e Desenvolvimento de Sistemas da Universidade Federal do Cariri (UFCA).
 
-## Identificação da Atividade
+## 🧩 Identificação da Atividade
 
 - **Universidade:** Universidade Federal do Cariri (UFCA)
 - **Curso:** Análise e Desenvolvimento de Sistemas (ADS)
@@ -10,19 +10,19 @@ Projeto desenvolvido para a disciplina de Desenvolvimento para Web, do curso de 
 - **Professor:** Prof. Jayr Alencar Pereira
 - **Projeto:** Feira Conectada
 
-## Sobre o Projeto
+## 🌐 Sobre o Projeto
 
 O Feira Conectada é um projeto voltado para a conexão entre o campo e a cidade, com foco na divulgação e valorização da agricultura familiar por meio da tecnologia.
 
 Este repositório contém a versão web do projeto, com a página principal e páginas complementares de apresentação da proposta e dos integrantes da equipe.
 
-## Repositório de Referência
+## 🔗 Repositório de Referência
 
 O projeto está relacionado ao repositório principal:
 
 https://github.com/weberfern/projeto-integrado-iii-mvp
 
-## Equipe
+## 👥 Equipe
 
 | Nome | Matrícula |
 | --- | --- |
@@ -33,7 +33,7 @@ https://github.com/weberfern/projeto-integrado-iii-mvp
 | Marcelo dos Santos Alves | 2023010825 |
 | Weber Fernandes da Silva | 2025019356 |
 
-## Estrutura do Projeto
+## 🛠️ Estrutura do Projeto
 
 - `index.html` - página inicial
 - `css/style.css` - estilos do site
@@ -41,6 +41,6 @@ https://github.com/weberfern/projeto-integrado-iii-mvp
 - `img/` - imagens e ícones
 - `paginas/` - páginas internas do projeto
 
-## Observação
+## 💡 Observação
 
 Este projeto foi desenvolvido como atividade acadêmica da disciplina de Desenvolvimento para Web.
