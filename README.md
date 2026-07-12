@@ -16,6 +16,14 @@ O Feira Conectada é um projeto voltado para a conexão entre o campo e a cidade
 
 Este repositório contém a versão web do projeto, com a página principal e páginas complementares de apresentação da proposta e dos integrantes da equipe.
 
+## 🖼️ Preview do Projeto
+
+![Preview da página inicial](img/preview-home.png)
+
+![Preview da página Sobre o Projeto](img/preview-sobre.png)
+
+![Preview da página Integrantes](img/preview-integrantes.png)
+
 ## 🔗 Repositório de Referência
 
 O projeto está relacionado ao repositório principal:
