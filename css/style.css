@@ -136,9 +136,9 @@ img {
         flex-direction: column;
         text-align: center;
         gap: 15px;
-        /* Dá um espaço entre a logo e o menu */
+        /* Espaço entre a logo e o menu */
         padding: 20px;
-        /* Reduz um pouco o espaçamento lateral no celular */
+        /* Reduz o espaçamento lateral no mobile */
     }
 
     /* 2. Empilha os links do menu um embaixo do outro */
@@ -150,5 +150,21 @@ img {
     /* 3. Reduz o espaço interno (padding) das seções para aproveitar melhor a tela pequena */
     section {
         padding: 20px;
+    }
+
+    /* 4. Ajusta o tamanho da fonte do título principal para não estourar a tela */
+    header h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    /* 5. Faz os botões ocuparem 100% da largura, facilitando o clique no celular */
+    button {
+        width: 100%;
+        padding: 15px;
+        /* Deixa o botão maior para o toque */
     }
 }
