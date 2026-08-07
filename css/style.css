@@ -53,7 +53,7 @@ section {
     margin-bottom: 30px;
     padding: 35px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     text-align: left;
 }
 
@@ -119,4 +119,36 @@ footer {
     padding: 25px;
     margin-top: 40px;
     font-size: 15px;
+}
+
+/* RESPONSIVIDADE */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* --- Estilos Responsivos (Telas menores que 768px - Tablets e Celulares) --- */
+@media (max-width: 768px) {
+
+    /* 1. Muda o cabeçalho para empilhar o logo e o menu */
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        /* Dá um espaço entre a logo e o menu */
+        padding: 20px;
+        /* Reduz um pouco o espaçamento lateral no celular */
+    }
+
+    /* 2. Empilha os links do menu um embaixo do outro */
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* 3. Reduz o espaço interno (padding) das seções para aproveitar melhor a tela pequena */
+    section {
+        padding: 20px;
+    }
 }
