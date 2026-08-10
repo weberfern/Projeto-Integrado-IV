@@ -24,9 +24,9 @@ Este repositório contém a versão web do projeto, com a página principal e p�
 
 ![Preview da página Integrantes](img/preview-integrantes.png)
 
-## [PF2] - Tornar o projeto responsivo
+## Página Responsiva
 
-- **Status:** Atividade PF2 concluída — o layout foi adaptado para telas menores (tablets e celulares) e ajustes de CSS aplicados.
+- **Status:** O layout foi adaptado para telas menores (tablets e celulares) e ajustes de CSS aplicados.
 
 Previews do comportamento em dispositivos móveis:
 
