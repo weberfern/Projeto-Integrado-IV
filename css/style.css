@@ -168,3 +168,32 @@ img {
         /* Deixa o botão maior para o toque */
     }
 }
+
+/* --- Ajustes finos de responsividade (Jefferson) --- */
+@media (max-width: 768px) {
+    main ul {
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    /* Deixa o menu mobile mais compacto e elegante */
+    nav ul {
+        gap: 0;
+        width: 100%;
+    }
+
+    nav ul li {
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    nav ul li:first-child {
+        border-top: none;
+    }
+
+    nav a {
+        display: block;
+        padding: 12px 0;
+        font-size: 16px;
+    }
+}
