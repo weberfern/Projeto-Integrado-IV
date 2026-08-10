@@ -24,6 +24,18 @@ Este repositório contém a versão web do projeto, com a página principal e p�
 
 ![Preview da página Integrantes](img/preview-integrantes.png)
 
+## [PF2] - Tornar o projeto responsivo
+
+- **Status:** Atividade PF2 concluída — o layout foi adaptado para telas menores (tablets e celulares) e ajustes de CSS aplicados.
+
+Previews do comportamento em dispositivos móveis:
+
+![Preview mobile 1](img/preview-mobile-1.png)
+
+![Preview mobile 2](img/preview-mobile-2.png)
+
+![Preview mobile 3](img/preview-mobile-3.png)
+
 ## 🔗 Repositório de Referência
 
 O projeto está relacionado ao repositório principal:
