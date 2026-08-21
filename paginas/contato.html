@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Feira Conectada</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/favicon.png" type="image/png">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <h1>Feira Conectada</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="sobre-o-projeto.html">Sobre o Projeto</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+                <li><a class="active"href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contato">
+            <h2>Ficou interessado? Fale Conosco</h2>
+            <p>Preencha os dados abaixo para tirar dúvidas ou iniciar o seu cadastro.</p>
+            
+            <!-- Div para exibir as mensagens de erro ou sucesso geradas pelo JS -->
+            <div id="form-feedback" class="escondido"></div>
+
+            <form id="form-contato">
+                <div class="campo">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                </div>
+                
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem / Dúvida:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Como podemos ajudar?"></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Feira Conectada | ADS UFCA</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

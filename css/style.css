@@ -121,6 +121,16 @@ footer {
     font-size: 15px;
 }
 
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.active {
+    color: #e68a00
+}
+
 /* RESPONSIVIDADE PARA IMAGENS */
 img {
     max-width: 100%;
