@@ -36,6 +36,14 @@ Previews do comportamento em dispositivos móveis:
 
 ![Preview mobile 3](img/preview-mobile-3.png)
 
+## Inclusão de Formulário com Validação JavaScript
+
+- **Status:** Formulário de contato incluído com validações em JavaScript para garantir o preenchimento correto dos campos.
+
+Preview da página de contato:
+
+![Preview da página de contato](img/preview-contact.png)
+
 ## 🔗 Repositório de Referência
 
 O projeto está relacionado ao repositório principal:

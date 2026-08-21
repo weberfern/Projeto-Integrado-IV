@@ -131,6 +131,48 @@ footer {
     color: #e68a00
 }
 
+/* --- Destaca o campo com erro --- */
+.input-erro {
+    border: 2px solid #d32f2f !important;
+    background-color: #fff8f8;
+}
+
+/* --- Estilo melhorado para a mensagem de sucesso --- */
+.alerta-sucesso {
+    color: #2e7d32;
+    background-color: #e8f5e9;
+    border: 1px solid #2e7d32;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.alerta-sucesso h3 {
+    margin-top: 0;
+}
+
+.btn-voltar {
+    margin-top: 15px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-voltar:hover {
+    background-color: #1b5e20;
+}
+
+small {
+    color: #666;
+    font-size: 0.85em;
+    display: block;
+    margin-top: 5px;
+}
+
 /* RESPONSIVIDADE PARA IMAGENS */
 img {
     max-width: 100%;
