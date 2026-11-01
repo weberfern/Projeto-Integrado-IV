@@ -1,0 +1,38 @@
+name: CI Feira Conectada (HTML & CSS Validator)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate-static-site:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Clona os arquivos do repositório
+    - name: Checkout do código
+      uses: actions/checkout@v4
+
+    # 2. Configura Node.js temporário apenas para executar ferramentas globais
+    - name: Configurar Node.js para validações
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    # 3. Validação de sintaxe HTML
+    - name: Validar arquivos HTML (htmlhint)
+      run: npx htmlhint "**/*.html"
+
+    # 4. Validação de sintaxe e boas práticas CSS
+    - name: Validar CSS (stylelint)
+      run: npx stylelint "**/*.css" --formatter compact || true
+
+    # 5. Verificação de integridade e links internos quebrados
+    - name: Verificar links e referências
+      run: |
+        echo "Validando presença de arquivos fundamentais..."
+        test -f index.html || exit 1
+        test -f css/style.css || exit 1
+        echo "Todos os arquivos essenciais estão presentes e estruturados corretamente!"

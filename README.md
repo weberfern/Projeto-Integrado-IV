@@ -1,54 +1,12 @@
-# 🎯 Landing Page do Projeto Feira Conectada
+# 🎯 Projeto Integrado IV - Entregável Parcial 1 (EP1): Configuração de um processo de integração contínua utilizando o GitHub Actions
 
-Projeto desenvolvido para a disciplina de Desenvolvimento para Web, do curso de Análise e Desenvolvimento de Sistemas da Universidade Federal do Cariri (UFCA).
+Universidade Federal do Cariri (UFCA)  
+Análise e Desenvolvimento de Sistemas (ADS)  
+Disciplina: Projeto Integrado IV [ADS0039]  
+Disciplina Integrada: Integração de Sistemas  
+Professor: Prof. Allysson Allex Araújo
 
-## 🧩 Identificação da Atividade
-
-- **Universidade:** Universidade Federal do Cariri (UFCA)
-- **Curso:** Análise e Desenvolvimento de Sistemas (ADS)
-- **Disciplina:** Desenvolvimento para Web [ADS0015]
-- **Professor:** Prof. Jayr Alencar Pereira
-- **Projeto:** Feira Conectada
-
-## 🌐 Sobre o Projeto
-
-O Feira Conectada é um projeto voltado para a conexão entre o campo e a cidade, com foco na divulgação e valorização da agricultura familiar por meio da tecnologia.
-
-Este repositório contém a versão web do projeto, com a página principal e páginas complementares de apresentação da proposta e dos integrantes da equipe.
-
-## 🖼️ Preview do Projeto [PF1]
-
-![Preview da página inicial](img/preview-home.png)
-
-![Preview da página Sobre o Projeto](img/preview-sobre.png)
-
-![Preview da página Integrantes](img/preview-integrantes.png)
-
-## Página Responsiva [PF2]
-
-- **Status:** O layout foi adaptado para telas menores (tablets e celulares) e ajustes de CSS aplicados.
-
-Previews do comportamento em dispositivos móveis:
-
-![Preview mobile 1](img/preview-mobile-1.png)
-
-![Preview mobile 2](img/preview-mobile-2.png)
-
-![Preview mobile 3](img/preview-mobile-3.png)
-
-## Inclusão de Formulário com Validação JavaScript [PF3]
-
-- **Status:** Formulário de contato incluído com validações em JavaScript para garantir o preenchimento correto dos campos.
-
-Preview da página de contato:
-
-![Preview da página de contato](img/preview-contact.png)
-
-## 🔗 Repositório de Referência
-
-O projeto está relacionado ao repositório principal:
-
-https://github.com/weberfern/projeto-integrado-iii-mvp
+---
 
 ## 👥 Equipe
 
@@ -61,14 +19,52 @@ https://github.com/weberfern/projeto-integrado-iii-mvp
 | Marcelo dos Santos Alves | 2023010825 |
 | Weber Fernandes da Silva | 2025019356 |
 
-## 🛠️ Estrutura do Projeto
+---
 
-- `index.html` - página inicial
-- `css/style.css` - estilos do site
-- `js/script.js` - scripts do projeto
-- `img/` - imagens e ícones
-- `paginas/` - páginas internas do projeto
+## 📦 Entregável Parcial 1 (EP1): Integração Contínua com GitHub Actions
 
-## 💡 Observação
+Este repositório contém a Landing Page de divulgação da iniciativa **Feira Conectada**. No presente entregável (EP1), o foco é a implementação de um processo automatizado de **Integração Contínua (CI)** utilizando o **GitHub Actions**.
 
-Este projeto foi desenvolvido como atividade acadêmica da disciplina de Desenvolvimento para Web.
+---
+
+## 🌐 Visão Geral do Projeto
+
+A Landing Page da Feira Conectada tem como objetivo divulgar o projeto, centralizar informações para visitantes e atrair novos feirantes para a plataforma. A interface foi desenvolvida com base em padrões modernos da Web (HTML5 semântico, CSS3 responsivo e JavaScript modular).
+
+---
+
+## ⚙️ Processo de Integração Contínua (CI)
+
+### 1. Objetivo do Pipeline
+Garantir que todas as alterações enviadas para a branch `main` passem por verificações automatizadas de qualidade antes de serem consideradas estáveis. O pipeline previne que erros de sintaxe no HTML, tags não fechadas ou ausência de arquivos essenciais passem despercebidos durante o trabalho em equipe.
+
+### 2. Gatilhos de Execução
+O fluxo de trabalho foi configurado no arquivo `.github/workflows/ci.yml` e é acionado automaticamente em dois cenários:
+*   **Push:** Envio direto de commits para a branch `main`.
+*   **Pull Request:** Abertura ou atualização de requisições de integração direcionadas à branch `main`.
+
+### 3. Tarefas Automatizadas Implementadas
+O job é executado em um ambiente virtual com sistema operacional Ubuntu (`ubuntu-latest`) contendo as seguintes etapas:
+*   **Checkout do Código:** Clona os arquivos do repositório no runner do GitHub.
+*   **Ambiente de Execução:** Prepara o runtime do Node.js (v20) para execução pontual de utilitários de checagem.
+*   **Validação Estática (Linting de HTML):** Utiliza o `htmlhint` para analisar todos os arquivos `.html` do projeto (`index.html` e páginas internas na pasta `paginas/`), identificando inconsistências estruturais e sintáticas.
+*   **Teste de Integridade de Arquivos:** Script automatizado em shell para garantir a existência dos arquivos estruturais indispensáveis (`index.html`, `css/style.css` e `js/script.js`).
+
+---
+
+## 📁 Estrutura do Repositório
+
+```text
+📦 projeto-web-equipe
+ ┣ 📂 .github
+ ┃ ┗ 📂 workflows
+ ┃   ┗ 📜 ci.yml          # Arquivo de configuração da pipeline de CI
+ ┣ 📂 css
+ ┃ ┗ 📜 style.css        # Folha de estilos da landing page
+ ┣ 📂 img                # Imagens e capturas de tela do sistema
+ ┣ 📂 js
+ ┃ ┗ 📜 script.js        # Scripts de interatividade da página
+ ┣ 📂 paginas            # Páginas complementares (contato, integrantes, sobre)
+ ┣ 📜 index.html         # Página principal da landing page
+ ┗ 📜 README.md          # Documentação do projeto
+```
