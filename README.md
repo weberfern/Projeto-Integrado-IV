@@ -50,6 +50,12 @@ O job é executado em um ambiente virtual com sistema operacional Ubuntu (`ubunt
 *   **Validação Estática (Linting de HTML):** Utiliza o `htmlhint` para analisar todos os arquivos `.html` do projeto (`index.html` e páginas internas na pasta `paginas/`), identificando inconsistências estruturais e sintáticas.
 *   **Teste de Integridade de Arquivos:** Script automatizado em shell para garantir a existência dos arquivos estruturais indispensáveis (`index.html`, `css/style.css` e `js/script.js`).
 
+### GitHub Actions em ação
+
+A execução do workflow de Integração Contínua pode ser acompanhada na aba **Actions** do repositório:
+
+![GitHub Actions em ação](img/github-actions-em-acao.png)
+
 ---
 
 ## 🎓 Componente Extensionista: O que é Integração Contínua?
