@@ -29,7 +29,7 @@ Este repositório contém a Landing Page de divulgação da iniciativa **Feira C
 
 ## 🌐 Visão Geral do Projeto
 
-A Landing Page da Feira Conectada tem como objetivo divulgar o projeto, centralizar informações para visitantes e atrair novos feirantes para a plataforma. A interface foi desenvolvida com base em padrões modernos da Web (HTML5 semântico, CSS3 responsivo e JavaScript modular).
+A Landing Page da Feira Conectada tem como objetivo divulgar o projeto, centralizar informações para visitantes e atrair novos feirantes para a plataforma. A interface foi desenvolvida com base em padrões modernos da Web (HTML5 semântico, CSS3 responsivo e JavaScript modular). Nesse projeto foi incluído o processo de Integração Contínua (CI) utilizando o GitHub Actions vista na disciplina de Integração de Sistemas [ADS0024].
 
 ---
 
