@@ -52,6 +52,22 @@ O job é executado em um ambiente virtual com sistema operacional Ubuntu (`ubunt
 
 ---
 
+## 🎓 Componente Extensionista: O que é Integração Contínua?
+
+### O que é?
+A **Integração Contínua** (conhecida pela sigla **CI**, do inglês *Continuous Integration*) é uma prática de engenharia de software em que os membros de uma equipe integram seus códigos com frequência em um repositório compartilhado. A cada integração, testes e análises automatizadas são executados de forma imediata para verificar se as novas alterações introduziram falhas no sistema.
+
+### Por que ela é importante para quem está aprendendo a programar?
+Para quem está iniciando na programação, especialmente em cursos como o de ADS na UFCA, é comum trabalhar em projetos colaborativos onde cada integrante desenvolve uma parte isoladamente. Sem a integração contínua, pequenos erros — como uma tag HTML esquecida aberta, um arquivo renomeado de forma incorreta ou um link quebrado — só costumam ser percebidos momentos antes da entrega final, gerando retrabalho e desgaste.
+
+A importância da Integração Contínua para estudantes e para a comunidade reside em três pontos fundamentais:
+
+1. **Segurança no Aprendizado:** Permite que o estudante teste hipóteses e suba seu código sem o receio de "quebrar" o trabalho dos colegas, pois o robô de validação aponta exatamente onde houve o erro.
+2. **Feedback Imediato:** Em vez de esperar uma revisão manual, o desenvolvedor sabe em poucos segundos se seu código atende aos padrões de qualidade esperados.
+3. **Cultura Profissional:** Prepara o aluno para a realidade do mercado de trabalho, onde a automação e a garantia de qualidade de software são requisitos indispensáveis.
+
+---
+
 ## 📁 Estrutura do Repositório
 
 ```text
